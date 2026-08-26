@@ -1,0 +1,16 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+sqlalchemy==2.0.36
+pydantic-settings==2.7.1
+email-validator==2.2.0
+python-multipart==0.0.20
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+fpdf==1.7.2
+PyQRCode==1.2.1
+pypng==0.0.21
+numpy==1.23.1
+opencv-python==4.6.0.66
+Pillow==9.2.0
+matplotlib==3.5.2
+pyzbar==0.1.9

@@ -1,0 +1,48 @@
+# Secrets and machine-local configuration
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*.json
+secrets*.json
+
+# Local development
+.venv/
+my_envs/
+.idea/
+.vscode/
+.codex/
+**/__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+Thumbs.db
+
+# Test
+errorHTML.html
+src/settings.ini
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases, user data and caches
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+**/uploads/
+**/mat_cache/
+**/.answer_sheet_cache/
+
+# Modern app local artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+graphify-out/
